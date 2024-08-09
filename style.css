@@ -18,9 +18,12 @@ body {
     rgba(255, 0, 52, 1) 100%
   ); */
   background-image: url("./bg.png");
+  background-size: cover;
+  background-position: center;
   background-repeat: no-repeat;
-  background-size: 100% 100%;
+  background-attachment: fixed;
 }
+
 .container {
   width: 1000px;
   display: flex;
@@ -51,6 +54,8 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  background: #000000;
+  border-radius: 30px;
 }
 .container .btn a {
   position: absolute;
